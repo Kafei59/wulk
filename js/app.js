@@ -6,9 +6,11 @@
 */
 
 $(document).ready(function() {
-    $('.top').css('opacity', 0);
-    $('.top').delay(1500).animate({opacity: 1}, 1500, function() {});
-
     $('.header').css('opacity', 0);
-    $('.header').animate({opacity: 1}, 1500, function() {});
+    $('.top').css('opacity', 0);
+
+    $('.header').animate({opacity: 1}, 1500, function() {
+        $('.top').animate({opacity: 1}, {duration: 1500}, function() {});
+/*        $('.top').show("blind", "easeOutExpo", 1000);*/
+    });
 });

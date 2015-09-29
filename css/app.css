@@ -24,8 +24,22 @@ header {
 .top {
     font-family: GrahamHand;
 
-    background-color: #212121;
-    font-size: 3em;
+    background-color: rgba(21, 21, 21, 0.8);
+}
+
+.main-title h1 {
+    font-size: 4em;
+    margin: 0;
+    padding-bottom: 1vh;
+}
+
+.links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #FF9800;
 }
 
 .header {
@@ -42,18 +56,18 @@ header {
     vertical-align: middle;
 }
 
-h1 {
+.text-middle h1 {
     font-size: 15em;
     text-shadow: 1px 1px 5px #000;
 
     padding-bottom: 5vh;
 }
 
-h2 {
+.text-middle h2 {
     font-size: 6em;
     text-shadow: 1px 1px 5px #000;
 }
 
-h2 small {
+.text-middle h2 small {
     color: #FFFFFF;
 }
