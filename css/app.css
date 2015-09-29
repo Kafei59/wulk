@@ -2,7 +2,7 @@
 * @Author: gicque_p
 * @Date:   2015-09-29 10:22:35
 * @Last Modified by:   gicque_p
-* @Last Modified time: 2015-09-29 11:36:58
+* @Last Modified time: 2015-09-29 11:45:49
 */
 
 @font-face {
@@ -16,15 +16,25 @@
 }
 
 header {
+    background: url(../img/wood.jpg);
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+.top {
+    font-family: GrahamHand;
+
+    background-color: #212121;
+    font-size: 5em;
+}
+
+.header {
+    font-family: Cabana;
+
     display: table;
     position: relative;
     width: 100%;
     height: 100vh;
-
-    background: url(../img/wood.jpg);
-    background-attachment: fixed;
-    color: #FFFFFF;
-    font-family: Cabana;
 }
 
 .text-middle {
