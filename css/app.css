@@ -2,7 +2,7 @@
 * @Author: gicque_p
 * @Date:   2015-09-29 10:22:35
 * @Last Modified by:   gicque_p
-* @Last Modified time: 2015-09-29 12:37:27
+* @Last Modified time: 2015-09-29 20:51:03
 */
 
 @font-face {
@@ -15,9 +15,24 @@
     src: url(../fonts/GrahamHand.otf), url(../fonts/GrahamHand.ttf);
 }
 
+@font-face {
+    font-family: Cutepunk;
+    src: url(../fonts/Cutepunk_Regular.otf);
+}
+
+@font-face {
+    font-family: LearningCurve;
+    src: url(../fonts/LearningCurve_OT.otf);
+}
+
+@font-face {
+    font-family: WriteMe;
+    src: url(../fonts/write_me.ttf);
+}
+
 header {
-    background: url(../img/wood.jpg);
-    background-attachment: fixed;
+    /*background: url(../img/wood.jpg);*/
+    /*background-attachment: fixed;*/
     color: #FFFFFF;
 }
 
@@ -30,15 +45,15 @@ header {
 .main-title h1 {
     font-size: 4em;
     margin: 0;
-    padding-bottom: 1vh;
+    padding-top: 1vh;
 }
 
-.links a {
+.nav a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.links a:hover {
+.nav a:hover {
     color: #FF9800;
 }
 
@@ -47,8 +62,11 @@ header {
 
     display: table;
     position: relative;
+}
+
+.header, #me, #projects {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .text-middle {
@@ -58,16 +76,55 @@ header {
 
 .text-middle h1 {
     font-size: 15em;
-    text-shadow: 1px 1px 5px #000;
+    text-shadow: 3px 3px 8px #000;
 
     padding-bottom: 5vh;
 }
 
 .text-middle h2 {
-    font-size: 6em;
-    text-shadow: 1px 1px 5px #000;
+    font-size: 8em;
+    text-shadow: 3px 3px 8px #000;
 }
 
 .text-middle h2 small {
+    color: #FFFFFF;
+}
+
+.content {
+    color: #FFFFFF;
+    text-shadow: 3px 3px 8px #000;
+}
+
+.content h3 {
+    font-family: Cabana;
+
+    font-size: 8em;
+}
+
+.content hr {
+    width: 25%;
+    height: 1px;
+    background-color: #FFF;
+
+    -moz-box-shadow: 0px 0px 8px 0px #212121;
+    -webkit-box-shadow: 0px 0px 8px 0px #212121;
+    -o-box-shadow: 0px 0px 8px 0px #212121;
+    box-shadow: 0px 0px 8px 0px #212121;
+
+    margin-bottom: 6vh;
+}
+
+.content p {
+    font-family: WriteMe;
+
+    word-wrap: break-word;
+    font-size: 4em;
+}
+
+footer {
+    font-family: Cabana;
+
+    font-size: 2em;
+    background-color: rgba(21, 21, 21 , 0.8);
     color: #FFFFFF;
 }

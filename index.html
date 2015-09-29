@@ -11,43 +11,95 @@
     </head>
 
     <body>
-        <header>
-            <section class="container-fluid top">
-                <div class="col-sm-7 col-md-10 main-title">
-                    <h1> Would you like Kafei ? </h1>
-                </div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/wood.jpg">
+            <header>
+                <section class="container-fluid top">
+                    <div class="main-title col-sm-6 col-md-9">
+                        <h1> Would you like Kafei ? </h1>
+                    </div>
 
-                <div class="col-sm-5 col-md-2 links">
-                    <ul class="list-inline">
-                        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-                        <li> <h2> <a href="#">Accueil</a> </h2> </li> |
-                        <li> <h2> <a href="#">Projets</a> </h2> </li> |
-                        <li> <h2> <a href="#">Contact</a> </h2> </li>
-                    </ul>
-                </div>
-            </section>
+                    <div class="nav col-sm-6 col-md-3">
+                        <ul class="list-inline">
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                            <li> <h2> <a href="#home">Accueil</a> </h2> </li> |
+                            <li> <h2> <a href="#me">Qui suis-je</a> </h2> </li> |
+                            <li> <h2> <a href="#projects">Projets</a> </h2> </li> |
+                            <li> <h2> <a href="#contact">Contact</a> </h2> </li>
+                        </ul>
+                    </div>
+                </section>
 
-            <section class="header">
-                <div class="container text-middle text-center">
-                    <h1> Would You Like Kafei ? </h1>
-                    <h2> Pierrick Gicquelais <br>
-                        <small> Développeur web et logiciel </small>
-                    </h2>
-                </div>
-            </section>
-        </header>
+                <section id="home" class="header">
+                    <div class="container text-middle text-center">
+                        <h1> Would You Like Kafei ? </h1>
+                        <h2> Pierrick Gicquelais <br>
+                            <small> Développeur web et logiciel </small>
+                        </h2>
+                    </div>
+                </section>
+            </header>
 
-        <footer>
-            <section class="container-fluid">
-                <p>
-                    Créé par Pierrick Gicquelais
-                </p>
-            </section>
-        </footer>
+            <div class="content text-center">
+                <section class="container">
+                    <div id="me">
+                        <h3> Qui suis-je ? </h3>
+                        <hr>
+
+                        <p>
+                            Salut ! <br>
+                            Je m'appelle Pierrick Gicquelais, j'ai actuellement 19 ans et je suis développeur. <br>
+                            Suite à mon cursus scolaire à Epitech pendant 3 ans, je me suis formé au développement logiciel. <br>
+                            Cependant, l'univers du web étant en pleine essor, je me suis formé de façon autodidacte dans ce domaine. <br>
+                            Aujourd'hui, je vous propose des prestations web aussi bien sur le développement complet d'un site que sur le développement de divers modules. <br>
+                        </p>
+                    </div>
+
+                    <div id="projects">
+                        <h3> Mes projets </h3>
+                        <hr>
+
+                        <ul>
+                            <li>toto</li>
+                            <li>toto</li>
+                            <li>toto</li>
+                        </ul>
+                    </div>
+
+                    <div id="contact">
+                        <h3> Contact </h3>
+                        <hr>
+
+                        <p>
+                            Pierrick GICQUELAIS <br>
+                            28 rue Sainte Catherine, 59800 LILLE <br>
+                            06.37.26.95.46 <br>
+                            pierrick.gicquelais@epitech.eu
+                        </p>
+                    </div>
+                </section>
+<!--                 <section class="scrollme">
+                    <div class="container animateme" data-when="span" data-from="1" data-to="0" data-opacity="0" data-translatex="-200">
+                        <h1> Would You Like Kafei ? </h1>
+                        <h2> Pierrick Gicquelais <br>
+                            <small> Développeur web et logiciel </small>
+                        </h2>
+                    </div>
+                </section> -->
+            </div>
+            <footer>
+                <section class="container-fluid text-center">
+                    <p>
+                        Créé par Pierrick Gicquelais (@Kafei59)
+                    </p>
+                </section>
+            </footer>
+        </div>
 
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/scrollme.min.js"></script>
+        <script src="js/parallax.min.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
