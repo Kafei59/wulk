@@ -2,7 +2,7 @@
 * @Author: gicque_p
 * @Date:   2015-09-29 10:22:35
 * @Last Modified by:   gicque_p
-* @Last Modified time: 2015-09-29 21:06:13
+* @Last Modified time: 2015-09-29 21:13:51
 */
 
 @font-face {
@@ -31,8 +31,6 @@
 }
 
 header {
-    /*background: url(../img/wood.jpg);*/
-    /*background-attachment: fixed;*/
     color: #FFFFFF;
 }
 
@@ -123,6 +121,20 @@ header {
 
     word-wrap: break-word;
     font-size: 4em;
+}
+
+.content a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #FF9800;
+}
+
+.content strong {
+    font-weight: 400;
+    font-style: italic;
 }
 
 .biography {
