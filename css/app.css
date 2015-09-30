@@ -2,7 +2,7 @@
 * @Author: gicque_p
 * @Date:   2015-09-29 10:22:35
 * @Last Modified by:   gicque_p
-* @Last Modified time: 2015-09-29 21:13:51
+* @Last Modified time: 2015-09-30 17:26:02
 */
 
 @font-face {
@@ -142,16 +142,44 @@ header {
     font-size: 0.8em;
 }
 
+.skills {
+    text-align: right;
+    font-size: 0.8em;
+}
+
 .skills ul {
     font-family: WriteMe;
 
-    text-align: right;
-    font-size: 4em;
+    font-size: 5em;
     list-style: none;
 }
 
 .skills li {
-    padding: 1vh;
+    line-height: 0.7;
+    padding: 2vh;
+}
+
+.skills li small {
+    text-align: center;
+    font-size: 0.4em;
+}
+
+#contact aside {
+    font-family: CutePunk;
+
+    text-align: center;
+    font-size: 1.8em;
+    background-color: rgba(21, 21, 21, 0.8);
+    border: 1px solid #212121;
+    border-radius: 1px;
+}
+
+#contact aside span {
+    font-size: 0.8em;
+}
+
+#contact aside a:hover {
+    color: #FFFFFF;
 }
 
 footer {
