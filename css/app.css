@@ -230,6 +230,16 @@ header {
     text-align: center;
 }
 
+#projects ul {
+    list-style: none;
+}
+
+#projects ul li {
+    padding: 0;
+    margin: 8vh 1vw;
+    border: 4px solid #FFFFFF;
+}
+
 #contact aside {
     font-family: CutePunk;
 
