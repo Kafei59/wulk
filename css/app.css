@@ -30,6 +30,79 @@
     src: url(../fonts/write_me.ttf);
 }
 
+
+@media screen and (max-width: 640px) {
+    .header h1, .header h2 {
+        font-size: 6em;
+    }
+
+    .content, .content h3, .content h4, footer {
+        font-size: 2em;
+    }
+
+    #papersheet, #headphones, #mouse {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .main-title h1 {
+        font-size: 4em;
+    }
+
+    .text-middle h1 {
+        font-size: 15em;
+    }
+
+    .text-middle h2 {
+        font-size: 8em;
+    }
+
+    .content h3 {
+        font-size: 8em;
+    }
+
+    .content h4 {
+        font-size: 5em;
+    }
+
+    .content p {
+        font-size: 4em;
+    }
+
+    .biography {
+        font-size: 0.8em;
+    }
+
+    .skills {
+        font-size: 0.8em;
+    }
+
+    .skills ul {
+        font-size: 5em;
+    }
+
+    .skills li small {
+        font-size: 0.4em;
+    }
+
+    #contact p {
+        font-size: 2.5em;
+    }
+
+    #contact aside {
+        font-size: 1.8em;
+    }
+
+    #contact aside span {
+        font-size: 0.8em;
+    }
+
+    footer {
+        font-size: 2em;
+    }
+}
+
 header {
     color: #FFFFFF;
 }
@@ -41,7 +114,6 @@ header {
 }
 
 .main-title h1 {
-    font-size: 4em;
     margin: 0;
     padding-top: 1vh;
 }
@@ -70,14 +142,12 @@ header {
 }
 
 .text-middle h1 {
-    font-size: 15em;
     text-shadow: 3px 3px 8px #000;
 
     padding-bottom: 5vh;
 }
 
 .text-middle h2 {
-    font-size: 8em;
     text-shadow: 3px 3px 8px #000;
 }
 
@@ -92,14 +162,11 @@ header {
 
 .content h3 {
     font-family: Cabana;
-
-    font-size: 8em;
 }
 
 .content h4 {
     font-family: GrahamHand;
 
-    font-size: 5em;
     text-shadow: 3px 3px 8px #000;
 }
 
@@ -120,7 +187,6 @@ header {
     font-family: WriteMe;
 
     word-wrap: break-word;
-    font-size: 4em;
 }
 
 .content a {
@@ -137,20 +203,21 @@ header {
     font-style: italic;
 }
 
+#me, #projects {
+    padding-bottom: 40vh;
+}
+
 .biography {
     text-align: left;
-    font-size: 0.8em;
 }
 
 .skills {
     text-align: right;
-    font-size: 0.8em;
 }
 
 .skills ul {
     font-family: WriteMe;
 
-    font-size: 5em;
     list-style: none;
 }
 
@@ -161,21 +228,15 @@ header {
 
 .skills li small {
     text-align: center;
-    font-size: 0.4em;
 }
 
 #contact aside {
     font-family: CutePunk;
 
     text-align: center;
-    font-size: 1.8em;
     background-color: rgba(21, 21, 21, 0.8);
     border: 1px solid #212121;
     border-radius: 1px;
-}
-
-#contact aside span {
-    font-size: 0.8em;
 }
 
 #contact aside a:hover {
@@ -185,7 +246,6 @@ header {
 footer {
     font-family: Cabana;
 
-    font-size: 2em;
     background-color: rgba(21, 21, 21 , 0.8);
     color: #FFFFFF;
 }
