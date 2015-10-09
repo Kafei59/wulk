@@ -2,7 +2,7 @@
 * @Author: gicque_p
 * @Date:   2015-09-29 10:22:35
 * @Last Modified by:   gicque_p
-* @Last Modified time: 2015-10-07 17:50:22
+* @Last Modified time: 2015-10-09 22:58:17
 */
 
 @font-face {
@@ -30,6 +30,10 @@
     src: url(../fonts/write_me.ttf);
 }
 
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue.otf);
+}
 
 @media screen and (max-width: 640px) {
     .header h1, .header h2 {
@@ -72,6 +76,10 @@
 
     .biography {
         font-size: 0.8em;
+    }
+
+    .biography p {
+        font-size: 3em;
     }
 
     .skills {
@@ -226,6 +234,13 @@ header {
 
 .biography {
     text-align: left;
+}
+
+.biography p {
+    font-family: HelveticaNeue;
+
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 
 .skills {
