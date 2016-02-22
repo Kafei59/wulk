@@ -14,11 +14,11 @@
         <div class="parallax-window" data-parallax="scroll" data-image-src="img/wood.jpg">
             <header>
                 <section id="top" class="container-fluid top">
-                    <div class="main-title col-sm-6 col-md-9">
+                    <div class="main-title col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         <h1> Would you like Kafei ? </h1>
                     </div>
 
-                    <div class="nav col-sm-6 col-md-3">
+                    <div class="nav col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
                         <ul class="list-inline">
                             <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                             <li> <h2> <a href="#home">Accueil</a> </h2> </li> |
@@ -26,6 +26,10 @@
                             <li> <h2> <a href="#projects">Projets</a> </h2> </li> |
                             <li> <h2> <a href="#contact">Contact</a> </h2> </li>
                         </ul>
+                    </div>
+
+                    <div class="hamburger-menu col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
+                        <i class="glyphicon glyphicon glyphicon-menu-hamburger"></i>
                     </div>
                 </section>
 
@@ -58,13 +62,13 @@
                             <h3> Qui suis-je ? </h3>
                             <hr>
 
-                            <div class="biography col-sm-12 col-md-5">
+                            <div class="biography col-sm-12 col-md-6">
                                 <h4> Ma biographie </h4>
                                 <p>
                                     Salut ! <br>
-                                    Je m'appelle Pierrick Gicquelais, j'ai actuellement 19 ans et je suis développeur. <br>
+                                    Je m'appelle Pierrick Gicquelais, j'ai actuellement 20 ans et je suis développeur. <br><br>
                                     Suite à mon cursus scolaire à Epitech pendant 3 ans, je me suis formé au développement logiciel. <br>
-                                    Cependant, l'univers du web étant en pleine essor, je me suis formé de façon autodidacte dans ce domaine. <br>
+                                    Cependant, l'univers du web étant en pleine essor, je me suis formé de façon autodidacte dans ce domaine. <br><br>
                                     Aujourd'hui, je vous propose des prestations web aussi bien sur le développement complet d'un site que sur le développement de divers modules. <br>
                                 </p>
                             </div>
@@ -130,23 +134,31 @@
 
                             <ul>
                                 <li class="col-md-5">
-                                    <a href="http://bdeolympe.fr"><img src="img/project1.png" alt="Miniature du premier projet" class="img-responsive" /></a>
+                                    <a href="http://bdeolympe.fr">
+                                        <img src="img/project1.png" alt="Miniature du premier projet" class="img-responsive" />
+                                    </a>
                                     Olympe - Site BDE Epitech (Symfony2)
                                 </li>
 
                                 <li class="col-md-5">
-                                    <a href="http://bdeolympe.fr"><img src="img/project1.png" alt="Miniature du premier projet" class="img-responsive" /></a>
-                                    Olympe - Site BDE Epitech
+                                    <a href="#contact">
+                                        <img src="img/project2.png" alt="Miniature du deuxième projet" class="img-responsive" />
+                                    </a>
+                                    Babel - Client VOIP (C++)
                                 </li>
 
                                 <li class="col-md-5">
-                                    <a href="http://bdeolympe.fr"><img src="img/project1.png" alt="Miniature du premier projet" class="img-responsive" /></a>
-                                    Olympe - Site BDE Epitech
+                                    <a href="https://github.com/Kafei59/symfony-toolbox">
+                                        <img src="img/project3.png" alt="Miniature du troisième projet" class="img-responsive" />
+                                    </a>
+                                    Tools - Symfony Toolbox (Shell)
                                 </li>
 
                                 <li class="col-md-5">
-                                    <a href="http://bdeolympe.fr"><img src="img/project1.png" alt="Miniature du premier projet" class="img-responsive" /></a>
-                                    Olympe - Site BDE Epitech
+                                    <a href="https://github.com/Kafei59/pyraat">
+                                        <img src="img/project4.png" alt="Miniature du quatrième projet" class="img-responsive" />
+                                    </a>
+                                    Pyraat - Location de jeux-vidéos entre particuliers (Symfony2)
                                 </li>
                             </ul>
                         </div>
@@ -166,6 +178,8 @@
                             </p>
                         </div>
                     </div>
+
+                    <div id="map" class="container"></div>
                 </section>
             </div>
 
@@ -183,6 +197,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="js/scrollme.min.js"></script>
         <script src="js/parallax.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
